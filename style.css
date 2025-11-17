@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #1a4d8f; /* royal blue */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Slideshow */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Motto */
+.motto {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9d26b;
+  color: #1a4d8f;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Info cards */
+.info-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff2e6;
+}
+
+.info-cards .card {
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  background-color: #ffffffcc;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #1a4d8f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer .social-icons img {
+  height: 25px;
+  margin: 0 5px;
+}
+
+/* ChowNow Button */
+.chownow-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f9d26b;
+  color: #1a4d8f;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
