@@ -1,2 +1,28 @@
-# talavera-restaurant
- User-friendly website for restaurant business known as Talavera Mexfood, which serves homemade authentic Mexican food with fresh products offering both a healthy and delicious menu with unique flavors.
+talavera-restaurant/
+│
+├── index.html
+├── about.html
+├── menu.html
+├── location.html
+├── order.html
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   └── slideshow.js
+│
+├── images/
+│   ├── slideshow/
+│   │   ├── slide1.jpg
+│   │   ├── slide2.jpg
+│   │   └── slide3.jpg
+│   ├── about/
+│   │   └── staff-placeholder.jpg
+│   └── icons/
+│       ├── facebook.png
+│       ├── instagram.png
+│       ├── yelp.png
+│       └── google.png
