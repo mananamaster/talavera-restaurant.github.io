@@ -1,0 +1,118 @@
+/* ============================================
+   RESPONSIVE STYLES FOR MOBILE & TABLET
+   ============================================ */
+
+/* General Mobile Styles */
+@media (max-width: 900px) {
+
+  /* Shrink header layout */
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  header .logo {
+    flex-direction: column;
+  }
+
+  header .logo img {
+    height: 45px;
+    margin-bottom: 5px;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header nav ul li {
+    margin: 8px 12px;
+  }
+
+  /* Motto */
+  .motto {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  /* Info Cards Become Vertical */
+  .info-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-cards .card {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  /* About Page */
+  .about-us img {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  /* Menu Items */
+  .menu-section {
+    padding: 10px;
+  }
+
+  .menu-item {
+    padding: 10px 0;
+  }
+
+  /* Location Page */
+  .location-section {
+    padding: 15px;
+  }
+}
+
+/* Extra Small Screens (Phones under ~600px) */
+@media (max-width: 600px) {
+
+  header nav ul li a {
+    font-size: 0.9rem;
+  }
+
+  .motto h2 {
+    font-size: 1.1rem;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .menu-item h3 {
+    font-size: 1.1rem;
+  }
+
+  .menu-item p {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+
+  footer .social-icons img {
+    height: 22px;
+  }
+}
+
+/* Tablet view improvements */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  header nav ul li a {
+    font-size: 1rem;
+  }
+
+  .info-cards .card {
+    width: 80%;
+  }
+
+  .about-us img {
+    width: 70%;
+  }
+}
